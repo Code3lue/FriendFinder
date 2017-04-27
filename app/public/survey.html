@@ -54,7 +54,7 @@ input[type=radio]  {
 	      </div>
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
-	        <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+	        <img id="matchImg" src= "" alt="">
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -76,15 +76,15 @@ input[type=radio]  {
 
 		<h4>Gender (Required)</h4>
 		<div class="radio">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios1" value="male" checked>
-    <h2>Male</h2>
+  <label class="chosen-select">
+    <input type="radio" name="sRadios" id="sRadios1" value="male" required>
+    <h6>Male</h6>
   </label>
 </div>
 <div class="radio">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios2" value="female">
-    <h2>Female</h2>
+  <label class='chosen-select'>
+    <input type="radio" name="sRadios" id="sRadios2" value="female" >
+    <h6>Female</h6>
   </label>
 </div>
 
@@ -93,21 +93,21 @@ input[type=radio]  {
 
 		<h3><strong>Question 1</strong></h3>
 		<h4>You enjoy exercising outdoors more than indoors</h4>
-		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+		<form class='form-inline' id='q1' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
@@ -115,21 +115,21 @@ input[type=radio]  {
 		<h3><strong>Question 2</strong></h3>
 		<h4>You like to maintain a routine workout schedule</h4>
 
-		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+		<form class='form-inline' id='q2' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
@@ -137,41 +137,41 @@ input[type=radio]  {
 
 		<h3><strong>Question 3</strong></h3>
 		<h4>Morning workouts are best for me!</h4>
-		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+		<form class='form-inline' id='q3' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
 		<h3><strong>Question 4</strong></h3>
 		<h4>Its important to workout with a plan</h4>
-	 		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+	 		<form class='form-inline' id='q4' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
@@ -179,21 +179,21 @@ input[type=radio]  {
 
 		<h3><strong>Question 5</strong></h3>
 		<h4>A healthy diet is key to a healthy lifestyle</h4>
-			<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+			<form class='form-inline' id='q5' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
@@ -201,21 +201,21 @@ input[type=radio]  {
 
 		<h3><strong>Question 6</strong></h3>
 		<h4>It is often difficult to try new exercises or gym equipment</h4>
-		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+		<form class='form-inline' id='q6' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
@@ -223,85 +223,87 @@ input[type=radio]  {
 
 		<h3><strong>Question 7</strong></h3>
 		<h4>You participate in 5k's, half-marathons, or marathons</h4>
-		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+		<form class='form-inline' id='q7' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
 
 		<h3><strong>Question 8</strong></h3>
 		<h4>You always try to set a new personal record whenever you workout</h4>
-		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+		<form class='form-inline' id='q8' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
 
 		<h3><strong>Question 9</strong></h3>
 		<h4>You prefer weightlifting versus aerobic exercise</h4>
-	 		<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+	 		<form class='form-inline' id='q9' role='form'>
+<label class="radio-inline chosen-select">
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
 	</form>
 
 
 		<h3><strong>Question 10</strong></h3>
 		<h4>You enjoy group exercises over individual workouts</h4>
-			<form class='form-inline' role='form'>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 <div class='under'>(Strongly Disagree)</div>
+			<form class='form-inline'id='q10' role='form'>
+<label class="radio-inline chosen-select" >
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1 <div class='under'>(Strongly Disagree)</div>
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 5 <div class='under'>(Strongly Agree)</div>
+  <input class ='calc' type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5 <div class='under'>(Strongly Agree)</div>
 </label>
+
+<input type="text" name="sum" />
 	</form>
 
 		<br>
@@ -320,54 +322,54 @@ input[type=radio]  {
 
 	</div>
  <script type="text/javascript">
-
-  	// Chosen CSS
-    var config = {
-      '.chosen-select'           : {},
-      '.chosen-select-deselect'  : {allow_single_deselect:true},
-      '.chosen-select-no-single' : {disable_search_threshold:10},
-      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
-      '.chosen-select-width'     : {width:"95%"}
-    }
-    for (var selector in config) {
-      $(selector).chosen(config[selector]);
-    }
-
-    // Capture the form inputs 
+    // Capture the form input 
     $("#submit").on("click", function(){
 
     	// Form validation
-    	function validateForm() {
+    function validateForm() {
 		  var isValid = true;
-		  $('.form-control').each(function() {
-		    if ( $(this).val() === '' )
-		        isValid = false;
-		  });
+		  if ($('.form-control').val() === "") {
+				isValid = false;
+			}
 
-		  $('.chosen-select').each(function() {
-
-		  	if( $(this).val() === "")
-		  		isValid = false
-		  })
+		 if ( $(':input[type=radio]').is(':checked') == false ) {
+				isValid = false;
+		 }
+			
 		  return isValid;
-		}
-
+			}
+			validateForm();
+		
+			
+			
 		// If all required fields are filled
-		if (validateForm() == true)
-		{
+		if (isValid == true) {
 			// Create an object for the user's data
-	    	var userData = {
-	    		name: $("#name").val(),
-	    		photo: $("#photo").val(),
-	    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
-	    	}
+	    function calcscore() {
+    var score = 0;
+    $(".calc:checked").each(function(){
+        score+=parseInt($(this).value);
+				console.log($(this).value)
+    });
+    $("input[name=sum]").val(score)
+		return score;
+}
+calcscore();
+		}
+		return score;
 
+	});
+	return score;
 
+				
+				
 	    	// Grab the URL of the website
 	    	var currentURL = window.location.origin;
+				var name = $('#name').val().trim();
+				var photo = $('#photo').val().trim();
 
 	    	// AJAX post the data to the friends API. 
-	    	$.post(currentURL + "/api/friends", userData, function(data){
+	    	$.post(currentURL + "/api/friends", score, name, photo, function(data){
 
 	    		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
 	    		$("#matchName").text(data.name);
@@ -375,19 +377,9 @@ input[type=radio]  {
 
 		    	// Show the modal with the best match 
 		    	$("#resultsModal").modal('toggle');
-
-	    	});
-		}
-		else
-		{
-			alert("Please fill out all fields before submitting!");
-		}
-    	
-    	return false;
-    });
-
+	    	})
 
   </script>
-
+	
 </body>
 </html>
