@@ -341,7 +341,7 @@ input[type=radio]  {
 			validateForm();
 		
 			
-			
+			var isValid = validateForm();
 		// If all required fields are filled
 		if (isValid == true) {
 			// Create an object for the user's data
@@ -359,8 +359,7 @@ calcscore();
 		return score;
 
 	});
-	return score;
-
+	
 				
 				
 	    	// Grab the URL of the website
@@ -369,7 +368,7 @@ calcscore();
 				var photo = $('#photo').val().trim();
 
 	    	// AJAX post the data to the friends API. 
-	    	$.post(currentURL + "/api/friends", score, name, photo, function(data){
+	    	$.post(currentURL + "/api/friends", userData, function(data){
 
 	    		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
 	    		$("#matchName").text(data.name);
